@@ -45,7 +45,7 @@ export default new Vuex.Store({
                     params: {
                         q: cityName,
                         appid: API_KEY,
-                        unit: 'metric',
+                        units: 'metric',
                     }
                 }
             );
@@ -68,7 +68,7 @@ export default new Vuex.Store({
                     params: {
                         q: cityName,
                         appid: API_KEY,
-                        unit: 'metric',
+                        units: 'metric',
                     }
                 }
             );

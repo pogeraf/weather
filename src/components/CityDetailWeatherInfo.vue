@@ -75,6 +75,7 @@ export default {
     display: flex;
     justify-content: space-between;
 
+    color: red;
     font-size: 25px;
   }
   &__name {

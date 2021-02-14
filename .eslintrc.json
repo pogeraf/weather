@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/essential"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "no-extra-parens": "warn",
+        "no-extra-semi": "warn",
+        "no-irregular-whitespace": "warn",
+        "no-empty": "error",
+        "no-dupe-keys": "error",
+        "no-duplicate-case": "error"
+    }
+}
